@@ -1,0 +1,16 @@
+# Секреты — НИКОГДА не коммитить
+.env
+token.txt
+*.token
+
+# Транзиентные данные времени выполнения
+state/
+out/
+logs/
+*.pid
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/

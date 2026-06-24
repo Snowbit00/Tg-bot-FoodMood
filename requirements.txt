@@ -1,0 +1,11 @@
+# Текст и картинки идут через HTTP-API по HTTP — тяжёлых SDK не нужно.
+requests>=2.31
+pydantic>=2.6
+PyYAML>=6.0
+python-dotenv>=1.0
+# Использует системное хранилище сертификатов Windows — лечит ошибку
+# "self-signed certificate in certificate chain" при перехвате HTTPS
+# антивирусом/VPN.
+truststore>=0.9
+# Вотермарка @канала на фото (виральность при репостах).
+Pillow>=10.0
